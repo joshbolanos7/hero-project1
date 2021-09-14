@@ -3,6 +3,7 @@ function handleGetData (event) {
 
 }
 
+// set up initial link to api 
 $.ajax({
     url:'https://www.superheroapi.com/api.php/4429508337097469/70'
 }).then( 
