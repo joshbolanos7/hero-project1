@@ -29,10 +29,10 @@ function handleGetData(event) {
     );
     function render(data)  { 
         $name.text(data.results[0].name);
-        $biography.text(data.results[0].biography["full-name"]);
+        $biography.text(data.results[0].biography["full-name"] , ["alter-egos"]);
+        $powerstats.text(data.results[0].powerstats[""]);
         $image.attr('src', data.results[0].image["url"]);
 
-        // $powerstats.text(data.results[0].powerstats);
         // $mainContent.append($img); 
 
     }
