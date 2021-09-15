@@ -10,7 +10,7 @@ For my webpage, I used:
 - CSS for styling - jQuery 
 - Coding was done on Virtual Studio Code application on a Macbook Air M1. 
 
-##Screenshots: 
+## Screenshots: 
 
 ![wireframe layout](images/wireframe-project1.png)
 
