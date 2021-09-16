@@ -13,5 +13,6 @@ For my webpage, I used:
 ## Screenshots: 
 
 ![wireframe layout](images/wireframe-project1.png)
+![screenshot](images/screenshotofproject.jpeg)
 
  <!-- ## Get Started!:  -->
