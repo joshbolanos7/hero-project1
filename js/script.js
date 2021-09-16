@@ -6,6 +6,8 @@ const $powerstats = $('#powerstats');
 const $input = $('input[type=text]');
 const $mainContent = $('main');
 const $image = $('#image');
+const $intelligence = $('#intelligence');
+
 function handleGetData(event) {
     event.preventDefault();
 
@@ -28,9 +30,15 @@ function handleGetData(event) {
         }
     );
     function render(data)  { 
+        for(let stat in data.results[0].powerstats) {
+            console.log(stat)
+            console.log(data.results[0].powerstats[stat])
+        }
         $name.text(data.results[0].name);
-        $biography.text(data.results[0].biography["full-name"] , ["alter-egos"]);
-        $powerstats.text(data.results[0].powerstats[""]);
+        $appearance.text(data.results[0].appearance.race)
+        $biography.text(data.results[0].biography["full-name"]);
+        $powerstats.text(data.results[0].powerstats.power);
+        $intelligence.text(data.results[0].powerstats.intelligence);
         $image.attr('src', data.results[0].image["url"]);
 
         // $mainContent.append($img); 
