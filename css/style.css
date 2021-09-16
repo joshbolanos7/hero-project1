@@ -1,11 +1,14 @@
+
 header { 
-    /* text-align: center;
-    border: white;
+    text-align: center;
+    /* border: white;
     border-style: solid;
     padding-bottom: 20px;
     color: whitesmoke; */
-    background: #34495e;
-    font-family: 'Goldman', cursive;
+    background: none;
+    border: 2px solid #3498db;
+    font-family: 'Goldman', cursive; 
+    
 }
 
 h1 { 
@@ -21,7 +24,7 @@ h1 {
     margin: 20px auto;
     text-align: center;
     outline: none;
-    color: white;
+    /* color: white; */
     border: 2px solid #3498db;
     border-radius: 24px;
     transition: 0.25s;
@@ -42,26 +45,38 @@ h1 {
 }
 body { 
     background: rgd (2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,62,136,1) 74%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 62%, rgb(26,31,50,1) 92%, rgba(0,131,255,1) 100%);
 }
 
 main { 
     color: white;
     border: steelblue;
     border-style: solid;
-    text-align: center;
+    text-align: center; 
     font-family: 'Goldman', cursive;
 }
 
 img { 
     padding-top: 10px;
+    padding-left: 10px;
     width: 35%;
     height: auto;
-   position: center;
+    position: right;
 }
+
 
 p { 
     /* text-decoration: underline; */
     font-size: 25px;
 }
 
+@media screen and (min-width: 500px){
+    body { 
+        width: 420px;
+    }
+}
+@media screen and (min-width: 1080px) { 
+    body { 
+        width: 1080px;
+    }
+}
