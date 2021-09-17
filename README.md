@@ -12,7 +12,9 @@ For my webpage, I used:
 
 ## Screenshots: 
 
-![wireframe layout](images/wireframe-project1.png)
+![wireframe layout](images/superherowireframe.png)
 ![screenshot](images/screenshotofproject.jpeg)
 
- <!-- ## Get Started!:  -->
+ ## Get Started!: 
+
+ https://hero-project1-ozhhbc355-joshbolanos7.vercel.app/
